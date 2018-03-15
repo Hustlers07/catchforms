@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RatingBar
+            android:layout_gravity="right"
+            android:id="@+id/MyRating"
+            android:padding="10dp"
+            android:paddingLeft="10dp"
+            style="@style/customRatingBar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:rating="1"
+            android:backgroundTint="@color/golden"
+            android:progressTint="@color/golden"
+            android:secondaryProgressTint="@color/golden"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="1" />
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textt"
+        android:clickable="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="asd"
+        android:layout_height="match_parent">
+
+    </TextView>
+
+
+
+</LinearLayout>

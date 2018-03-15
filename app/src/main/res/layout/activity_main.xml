@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.catchforms.vinod.rupesh.MainActivity">
+
+    <ExpandableListView
+        android:layout_gravity="end"
+        android:groupIndicator="@color/colorblue"
+        android:nestedScrollingEnabled="true"
+        android:scrollIndicators="right"
+        android:dividerHeight="2dp"
+        android:id="@+id/expandablelist"
+        android:background="#fff"
+        android:divider="@color/color5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ExpandableListView>
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/apply"
+    android:layout_gravity="end|bottom"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_width="65dp"
+    android:layout_height="65dp"
+    android:clickable="true"
+
+    android:focusableInTouchMode="true"
+    android:scaleType="fitCenter"
+    android:src="@drawable/ic_touch_app_black_24dp"
+    android:textAlignment="center"
+    />
+</FrameLayout>

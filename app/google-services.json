@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "854264901056",
+    "project_id": "catch-forms"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854264901056:android:46f90d9d7bf76c0f",
+        "android_client_info": {
+          "package_name": "com.catchforms.vinod.rupesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854264901056-ijl8b3ko86pnp90lprvunlsm2sjij35a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.catchforms.vinod.rupesh",
+            "certificate_hash": "92e067905a6789d69404380d342a1e9a27febaa0"
+          }
+        },
+        {
+          "client_id": "854264901056-oa50fa7cujv00ljma8dqlhppjolgti4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGsIgedGh3JTUUCtdkOUbetNCAzRSmTEI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

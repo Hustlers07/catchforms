@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    android:padding="15dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Reset Password"
+        android:layout_marginBottom="20dp"
+        android:letterSpacing="0.1"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/back">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+    <EditText
+        android:id="@+id/new_password"
+        android:layout_weight="0.6"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        android:textColor="@color/cardview_dark_background"
+        android:focusableInTouchMode="true"
+        />
+        <ImageView
+            android:id="@+id/reset_password_visibility"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:padding="5dp"
+            android:inputType="textPassword"
+            android:src="@drawable/ic_remove_red_eye_black_24dp" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:focusableInTouchMode="true"
+            />
+        <Button
+            android:id="@+id/reset_submit"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:letterSpacing="0.1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/cyber"
+            android:text="Submit"
+            />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

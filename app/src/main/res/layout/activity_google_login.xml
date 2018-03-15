@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_google_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.catchforms.vinod.rupesh.GoogleLogin">
+
+    <ImageView
+        android:alpha="0.5"
+        android:background="@drawable/hot_air_balloon_over_the_mountain_987"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:padding="25dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity=""
+        android:layout_height="match_parent">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:elevation="10dp"
+        android:layout_height="80dp"
+        android:src="@drawable/google_logo"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:layout_marginStart="11dp"
+        android:layout_gravity="center_vertical"
+        />
+        <Button
+            android:id="@+id/googlelogin"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:elevation="25dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Login"
+            android:textSize="25dp"
+            android:background="@drawable/loginwithgoogle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fblogin"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+</FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

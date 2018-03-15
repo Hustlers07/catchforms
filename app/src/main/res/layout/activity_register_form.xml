@@ -1,0 +1,230 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/Silver"
+    android:orientation="vertical"
+    tools:context="com.catchforms.vinod.rupesh.register_form">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:text="CREATE YOUR ACCOUNT"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalScrollbarPosition="right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="+91"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/center_contact"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Mobile Number"
+                            android:imeOptions="actionUnspecified"
+                            android:inputType="phone"
+                            android:maxLines="1"
+                            android:singleLine="true" />
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                    <EditText
+                        android:id="@+id/center_pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                        android:hint="@string/prompt_password"
+                        android:imeActionId="@+id/login_2"
+                        android:imeActionLabel="@string/action_sign_in_short"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textPassword"
+                        android:layout_weight=".8"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/password_visibility"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="10dp"
+                        android:clickable="true"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_remove_red_eye_black_24dp" />
+                    </LinearLayout>
+                </FrameLayout>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/get_location"-->
+            <!--android:text="Center location"-->
+            <!--android:drawableLeft="@drawable/ic_person_pin_circle_black_24dp"/>-->
+            <Spinner
+                android:id="@+id/spin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                ></Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Center Name"
+                android:textSize="18dp" />
+
+            <EditText
+
+                android:id="@+id/center_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/ic_store_black_24dp"
+                android:inputType="text"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:inputType="text"
+                android:text="Address"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/center_address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/ic_person_pin_circle_black_24dp"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Center Type"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/checkboxAdhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:onClick="checkbox"
+                android:text="Aadhar Card "
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/checkboxVoter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkbox"
+                android:text="Voter ID Card "
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/checkboxPan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkbox"
+                android:text="Pan Card "
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/checkboxRation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkbox"
+                android:text="Ration Card "
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/checkboxRest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkbox"
+                android:text="Include Rest Other"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Other"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/rest_other"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Rest Other (Optional)"
+                android:inputType="text"
+                android:textSize="18dp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/registation_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cyber"
+                android:elevation="10dp"
+                android:text="SUBMIT"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

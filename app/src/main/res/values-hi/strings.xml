@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">कैच फ़ार्मस्</string>
+    <string-array name="lang">
+        <item>हिंदी</item>
+        <item>अंग्रेज़ी</item>
+        <item>पंजाबी</item>
+    </string-array>
+    <string name="title_activity_firstscreen">पहली स्क्रीन</string>
+
+    <string name="navigation_drawer_open">नेविगेशन ड्रॉवर खोलें</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रॉवर को बंद करें</string>
+
+
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="displayInfo">प्रदर्शन जानकारी</string>
+    <string name="home">होम</string>
+    <string name="yojna">योजना</string>
+    <string name="apply">आवेदन</string>
+    <string name="Locate">केंद्र</string>
+    <string name="IDforms">आईडी फॉर्म</string>
+    <string name="General">सामान्य</string>
+    <string name="Drive">ड्राइव</string>
+    <string name="Setting">सेटिंग्स</string>
+    <string name="Language">भाषा</string>
+    <string name="Rate_us">हमें रेटिंग दें</string>
+    <string name="share">शेयर</string>
+    <string name="login">लॉग इन</string>
+    <string name="logout">लोग आउट</string>
+    <string name="more">अधिक</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="profile">कैफे केंद्र प्रोफाइल</string>
+    <string-array name="mapdata">
+        <item>आधार कार्ड</item>
+        <item>वोटर आई कार्ड</item>
+        <item>पैन कार्ड</item>
+        <item>राशन कार्ड</item>
+    </string-array>
+
+    <string-array name="list">
+        <item>आधार कार्ड</item>
+        <item>वोटर आई कार्ड</item>
+        <item>पैन कार्ड</item>
+        <item>राशन कार्ड</item>
+        <item>ड्राइविंग लाइसेंस</item>
+
+    </string-array>
+
+    <string-array name="aadharapply">
+        <item>नामांकन केंद्र की स्थिति जानें</item>
+        <item>आधार स्थिति की जांच करें</item>
+        <item>आधार डाउनलोड करें</item>
+        <item>खोया आधार को पुनः प्राप्त करें</item>
+    </string-array>
+    <string-array name="voterapply">
+        <item>ऑनलाइन अर्जी कीजिए</item>
+        <item>अवस्था जांच</item>
+        <item>चुनावी सूची में अपना नाम खोजें</item>
+        <item>वोटर आईडी कार्ड अपडेट करें</item>
+    </string-array>
+    <string-array name="pancardapply">
+        <item>ऑनलाइन अर्जी कीजिए</item>
+        <item>अवस्था जांच</item>
+        <item>डुप्लिकेट पैनकार्ड</item>
+        <item>अपडेट पैनकार्ड</item>
+    </string-array>
+    <string-array name="rationapply">
+        <item>ऑनलाइन अर्जी कीजिए</item>
+        <item>अवस्था जांच</item>
+        <item>ई-राशन कार्ड डाउनलोड करें</item>
+        <item>मोबाइल नंबर अपडेट करें</item>
+    </string-array>
+    <string-array name="drivingapply">
+        <item>ऑनलाइन अर्जी कीजिए</item>
+        <item>ट्रैक डीएल की स्थिति</item>
+        <item>ऑनलाइन भुगतान</item>
+    </string-array>
+    <string-array name="aadhar">
+        <item>आवेदन प्रक्रिया</item>
+        <item>आवश्यक दस्तावेज़</item>
+        <item>डुप्लिकेट</item>
+        <item>सुधार</item>
+        <item>जानकारी रखें</item>
+    </string-array>
+
+    <string-array name="Voter">
+        <item>आवेदन प्रक्रिया</item>
+        <item>आवश्यक दस्तावेज़</item>
+        <item>पात्रता मापदंड</item>
+        <item>गुम हो गया</item>
+        <item>सुधार</item>
+        <item>चेक सूची</item>
+    </string-array>
+
+    <string-array name="pan">
+        <item>आवेदन प्रक्रिया</item>
+        <item>आवश्यक दस्तावेज़</item>
+        <item>डुप्लिकेट</item>
+        <item>सुधार</item>
+    </string-array>
+
+    <string-array name="Ration">
+        <item>आवेदन प्रक्रिया</item>
+        <item>आवश्यक दस्तावेज़</item>
+        <item>डुप्लिकेट</item>
+        <item>अवस्था जांच</item>
+        <item>सदस्य जोड़ें</item>
+    </string-array>
+    <string-array name="Driving">
+        <item>आवेदन प्रक्रिया</item>
+        <item>आवश्यक दस्तावेज़</item>
+        <item>डुप्लिकेट</item>
+        <item>नवीकरण</item>
+    </string-array>
+
+
+
+</resources>
